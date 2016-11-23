@@ -1,0 +1,34 @@
+{
+  "name": "ethereum-experiment",
+  "version": "0.0.0",
+  "description": "Ethereum experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp postinstall",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinmchase/ethereum-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinmchase/ethereum-experiment/issues"
+  },
+  "homepage": "https://github.com/justinmchase/ethereum-experiment#readme",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "colors": "^1.1.2",
+    "death": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-command": "^0.1.2",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "shelljs": "^0.7.5",
+    "standard": "^8.5.0"
+  }
+}

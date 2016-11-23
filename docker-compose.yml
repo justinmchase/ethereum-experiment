@@ -1,6 +1,13 @@
+version: '2'
 
-geth:
-  build: node
-  ports:
-    - "8545:8545"
-    - "30303:30303"
+services:
+  geth:
+    build: node
+    ports:
+      - '8545:8545'
+      - '30303:30303'
+  dynamo:
+    image: marcosnils/dynamodb-local
+    ports:
+      - '8000:8000'
+    command: [ -inMemory ]
