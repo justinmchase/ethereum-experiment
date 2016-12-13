@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/justinmchase/ethereum-experiment.git"
   },
-  "author": "",
+  "author": "justinmchase",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/justinmchase/ethereum-experiment/issues"
